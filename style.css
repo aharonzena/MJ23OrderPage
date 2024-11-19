@@ -26,3 +26,51 @@ a{
     width: 10vh;
     height: 10vh;
 }
+
+.Main{
+    display: grid;
+    grid-template-columns: 20vw 1fr 20vw;
+    height: 100vh;
+}
+
+
+.commercial{
+    height: 100%;
+    /* width: 40vh; */
+}
+
+#video{
+    object-fit: unset;
+    height: 100%;
+    width: 100%;
+}
+
+.Order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items:center; */
+}
+
+.Price{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* align-items:center; */
+    width: 33vw;
+
+}
+
+
+.images{
+    width: 30vh;
+    height: 30vh;
+}
+
