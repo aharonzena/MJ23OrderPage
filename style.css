@@ -57,7 +57,7 @@ a{
     flex-direction: column;
     justify-content: space-around;
     /* align-items:center; */
-    width: 33vw;
+    width: 40vh;
 }
 
 .Price{
@@ -65,21 +65,21 @@ a{
     /* flex-direction: column; */
     justify-content: space-between;
     /* align-items:center; */
-    width: 33vw;
+    width: 40vh;
 
 }
 
 button{
     background-color: black;
     color: white;
-    width: 33vw;
+    width: 40vh;
     height: 4vh;
     border-radius: 0.1cm;
 }
 
 
 .images{
-    width: 33vw;
-    height: 30vh;
+    width: 40vh;
+    height: 33vh;
 }
 
