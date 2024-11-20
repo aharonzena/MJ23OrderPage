@@ -1,12 +1,12 @@
-*{
+* {
     /* border: 1px solid red; */
     margin: 0%;
     padding: 0%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
-.nav{
+.nav {
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -17,59 +17,72 @@
 
 }
 
-a{
+a {
     text-decoration: none;
     color: azure;
 }
 
-.Logo{
+.Logo {
     width: 10vh;
     height: 10vh;
 }
 
-.Main{
+.Main {
     display: grid;
     grid-template-columns: 20vw 1fr 20vw;
     height: 100vh;
 }
 
 
-.commercial{
+.commercial {
     height: 100%;
     /* width: 40vh; */
 }
 
-#video{
+#video {
     object-fit: unset;
     height: 100%;
     width: 100%;
 }
 
-.Order{
+.Order {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.item{
+.item {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* align-items:center; */
+    align-items: center;
     width: 40vh;
 }
 
-.Price{
+.Price {
     display: flex;
     /* flex-direction: column; */
-    justify-content: space-between;
-    /* align-items:center; */
+    justify-content: center;
+    align-items: center;
     width: 40vh;
 
 }
 
-button{
+.Size {
+    width: 33vh;
+    height: 4vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.Size-Number {
+    height: 3vh;
+    width: 3vh;
+}
+
+button {
     background-color: black;
     color: white;
     width: 40vh;
@@ -78,8 +91,31 @@ button{
 }
 
 
-.images{
+.images {
     width: 40vh;
     height: 33vh;
 }
 
+@media (max-width:767px) {
+
+    * {
+        /* border: 1px solid red; */
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .Main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .commercial {
+        height: 20vh;
+        width: 100%;
+    }
+
+}
